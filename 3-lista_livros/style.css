@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.livro {
+  display: flex;
+  background: white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.livro:hover {
+  transform: translateY(-3px);
+}
+
+.livro img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.descricao {
+  padding: 20px;
+  flex: 1;
+}
+
+.descricao h2 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+}
+
+.descricao p:first-of-type {
+  color: #7f8c8d;
+  font-style: italic;
+  margin: 0 0 15px 0;
+  font-size: 1.1em;
+}
+
+.descricao p:last-of-type {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+

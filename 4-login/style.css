@@ -1,0 +1,84 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(180deg, #11027f 20%, #6e6d75 100%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.formulario-login {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.formulario-login h2 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.entrada {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.entrada input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.entrada input:focus {
+  border-color: #667eea;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #11027f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.esqueceu-senha a {
+  color: #081d77;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.esqueceu-senha a:hover {
+  text-decoration: underline;
+}
+
